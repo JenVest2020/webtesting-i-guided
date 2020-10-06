@@ -1,3 +1,10 @@
 const { add } = require('./calculator.js');
 
-// test away!
+test('that truth is truth', () => {
+    expect(true).toBe(true);
+
+});
+
+it('should test that true is true', () => {
+    expect(true).toBe(true);
+})
